@@ -1,0 +1,41 @@
+[33mcommit 27cbb3239a2a2d5474b709437640e3a8f29837fa[m
+Author: Erick Solar <ericksolarb@gmail.com>
+Date:   Thu Aug 10 13:57:02 2017 -0400
+
+    Agrega la alerta para notice
+
+[33mcommit ad425bf10c697347281f49730922e0a70ec1864a[m
+Author: Erick Solar <ericksolarb@gmail.com>
+Date:   Thu Aug 10 13:56:33 2017 -0400
+
+    Crea la ruta POST /products
+
+[33mcommit 2052fe6d568a4d83629072d9a034342dbf8d0035[m
+Author: Erick Solar <ericksolarb@gmail.com>
+Date:   Thu Aug 10 13:31:23 2017 -0400
+
+    Crea la rura /products/new
+
+[33mcommit 39d68a8e2072d49b49b17856380446e861ee3ba9[m
+Author: Erick Solar <ericksolarb@gmail.com>
+Date:   Thu Aug 10 12:00:44 2017 -0400
+
+    Implementar la funcionalidad de listar productos
+
+[33mcommit 4d8366b8ebcac15e7e90d04949d0bd2d8bd8bfe9[m
+Author: Erick Solar <ericksolarb@gmail.com>
+Date:   Thu Aug 10 11:41:27 2017 -0400
+
+    Crea el modelo productos
+
+[33mcommit 44f872217f720b394328be57824d00cc7d098a6b[m
+Author: Erick Solar <ericksolarb@gmail.com>
+Date:   Thu Aug 10 11:31:33 2017 -0400
+
+    Crea la ruta /products
+
+[33mcommit 52a134542af806b9df27f7ba1d1716043aa14e54[m
+Author: Erick Solar <ericksolarb@gmail.com>
+Date:   Thu Aug 10 11:20:46 2017 -0400
+
+    Crea el proyecto inicial de rails
