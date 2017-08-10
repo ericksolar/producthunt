@@ -11,7 +11,7 @@
 					<th>Nombre</th>
 					<th>URL</th>
 					<th>Descripcion</th>
-					<th></th>
+					<th>Acciones</th>
 				</tr>
 				<% @products.each do |product| %>
 				<tr>
@@ -19,7 +19,10 @@
 					<td><%= link_to product.name , product %></td>
 					<td><%= product.url%></td>
 					<td><%= product.description %></td> 
-					<td><%= link_to "Editar" , edit_product_path(product) %></td>
+					<td>
+						<%= link_to "Editar" , edit_product_path(product) , class: "btn btn-success" %>
+						<%= link_to "Eliminar" , product , method: :delete , data: { confirm: "¿Estas seguro de eliminar este producto?" } , class: "btn btn-danger" %>
+					</td>
 				</tr>
 				<%end%>
 			</table>
