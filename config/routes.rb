@@ -10,6 +10,10 @@ Rails.application.routes.draw do
   #patch "/products/:id" , to: "products#update" 
   #delete "/products/:id" , to: "products#destroy" 
 
+  get 'login' , to: 'sessions#new'
+  post 'login' , to: 'sessions#create'
+
   resources :products
+  resources :users , only: [:new , :create]
 
 end
